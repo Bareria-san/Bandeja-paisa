@@ -1,0 +1,125 @@
+body{
+    background-color:#f3f4f5;
+    font-family: Arial;
+    font-size: 24px;
+    margin: 0,auto;
+    margin-left: 100px;
+}
+
+.header{
+    border: 2px,solid,red;
+}
+
+.header__menu{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu ul{
+    display: flex;
+ 
+}
+
+.header__menu li{
+    display: inherit;
+  
+}
+
+.header__menu a{
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__menu a:hover{
+    background-color: red;
+    color: aliceblue;
+    border-radius: 10px;
+
+}
+
+.container{
+    width: 1000px;
+    margin: 0,auto;
+}
+
+.banner{
+    color: black;
+
+}
+
+.banner .banner__hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.banner__text-hero{
+    padding: 80px 0 0 80px;
+    font-family: Georgia;
+    font-size: 18px;
+}
+
+.ingredientes{
+    display: flex;
+    margin: 100px;
+}
+
+.ingredientes__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 1px red;
+    border-radius: 10px;
+    width: 33%;
+}
+
+.ingredientes__box img{
+    border-radius: 10px;
+}
+
+.ingredientes__card{
+    margin: 1px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: Georgia;
+}
+
+
+.title{
+    border-left: 6px solid brown;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.preparacion{
+    display: flex;
+    margin: 100px;
+}
+
+.preparacion__box{
+    
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px red;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+
+.preparacion__body{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Georgia;
+}
+
+.footer{
+    margin: 50px;
+    color:black;
+    font-size: 18px;
+    font-family: Georgia;
+    text-align: center;
+}
